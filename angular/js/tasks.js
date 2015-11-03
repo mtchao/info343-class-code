@@ -2,8 +2,7 @@
     script for the tasks.html file 
 */
 
-angular.module('Tasks', []).constant('tasksKey', 'tasks')
-    .controller('TasksController', function($scope, tasksKey) {
+angular.module('Tasks', []).constant('tasksKey', 'tasks').controller('TasksController', function($scope, tasksKey) {
     'use strict';
 
     // initialize tasks property on the scope to local storage or an empty array
